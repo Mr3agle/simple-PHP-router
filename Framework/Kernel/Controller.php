@@ -8,7 +8,7 @@ abstract class Controller
       
    }
 
-   abstract public function run();
+   abstract public function run($param);
 
    protected function render($controller = '', $params = array())
    {

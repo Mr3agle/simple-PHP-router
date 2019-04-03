@@ -1,6 +1,6 @@
 <?php
 
-class HomeController extends Controller{
+class LoginController extends Controller{
 
    public function __construc()
    {

@@ -1,6 +1,6 @@
 <?php
 
-require 'Framework/config.php';
+require 'config.php';
 require 'Framework/Kernel/autoload.php';
 
 $route = new Route();
@@ -13,4 +13,4 @@ require PATH_CONTROLLER."{$controller}Controller.php";
 $controller.= 'Controller';
 $controllerObj = new $controller();
 
-$controllerObj->$method(); 
+$controllerObj->$method($param); 
