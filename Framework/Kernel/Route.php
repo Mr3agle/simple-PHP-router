@@ -21,17 +21,17 @@ class Route
 
    public function setController()
    {
-      $this->controller = $this->uri[2] === '' ? 'Home' : $this->uri[2];
+      $this->controller = $this->uri[1] === '' ? 'home' : $this->uri[1];
    }
 
    public function setMethod()
    {
-      $this->method = !empty($this->uri[3]) ? $this->uri[3] : 'run';
+      $this->method = !empty($this->uri[2]) ? $this->uri[2] : 'run';
    }
    
    public function setParam()
    {
-      $this->param = !empty($this->uri[4]) ? $this->uri[4] : '';
+      $this->param = !empty($this->uri[3]) ? $this->uri[3] : '';
    }
 
    public function getUri()
