@@ -1,5 +1,5 @@
 # Simple PHP Router
-
+***Importante:*** *Renombrar la carpeta simple-PHP-router a Routes, hacer las modificaciones necesarias en un nuevo branch si se requiere.*
 ### Para crear una ruta:
 1. Crear un PageController dentro de ***app/controller/*** (importante que el nombre siga el formato: **NombreController**.php)
 2. Crear la página en ***app/view/*** (importante que el nombre siga el formato: **Nombre**.php)
