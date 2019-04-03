@@ -7,7 +7,7 @@
 ### El archivo de configuración:
 Pueden añadirse más definiciones, para conexiones a bases de datos y etc.
 
-Aun no soporta la creación de carpetas dentro de las carpetas, de modo que no se puede crear capetas dentro de model o view. 
+Aun no soporta la creación de carpetas dentro de las carpetas, de modo que no se puede crear capetas dentro de model, controller o view. 
 
 ***Si alguno gusta implementar esa funcionalidad para carpetas y archivos en las raices, es bienvenido!***
 
