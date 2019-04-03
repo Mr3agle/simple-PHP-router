@@ -1,16 +1,18 @@
 <?php
 
-class Controller
+abstract class Controller
 {
    private $view;
 
    public function __construct(){
-      echo __CLASS__.' instantiated';
+      
    }
 
-   public function run($param = '')
+   abstract public function run();
+
+   protected function render($controller = '', $params = array())
    {
-      echo "<br> Running method <br>";
-      echo "param: $param";
-   }
+      $this->view = new View($controller, $params);
+   } 
+   
 }
