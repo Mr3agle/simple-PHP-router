@@ -3,7 +3,7 @@
 <head>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title>Home</title>
+   <title>TEST</title>
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -26,7 +26,7 @@
 <div class="container vh-100">
   <div class="row vh-100 justify-content-center align-content-center">
     <div class="jumbotron">
-      <h1>PHP-Router</h1>
+      <h1>PHP-RouterS</h1>
       <h5 class="lead">Este es mi maravilloso y magnifico sitio con un sistema hiper mega básico de ruteado con php utilizando MVC y OOP</h5>
       <hr class="my-4">
       <p>Este PHP router es muy básico pero puede convertirse en todo un framewok, si se implementan más funcionalidades podría ser un pequeño laravel, o quien sabe, incluso mejor! c: </p>
